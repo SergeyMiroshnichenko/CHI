@@ -1,38 +1,206 @@
-.App {
-  text-align: center;
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.header .contact_information {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+.header .contact_information .tel {
+  display: flex;
+  flex-direction: column;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.call_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #CB0077;
+  border: none;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.searc_site {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+form {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form input {
+  border: none;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .contact_information {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+.header .contact_information .tel {
+  display: flex;
+  flex-direction: column;
+}
+
+.call_me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: #CB0077;
+  border: none;
+  color: #fff;
+}
+
+.searc_site {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+form {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+form input {
+  border: none;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.main {
+  height: 85vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.main .main_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+.main .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main .main_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .main h1 {
+  text-align: center;
+}
+.main th {
+  width: 10%;
+  text-align: start;
+}
+.main td {
+  width: 10%;
+  text-align: start;
+}
+.main .title_tr th {
+  background-color: darkslategray;
+  background-color: darkslategray;
+  color: white;
+}
+.main .wrapper_CarTable {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.main .wrapper_addCar {
+  margin-bottom: 20px;
+}
+.main .pagination {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main .pagination button {
+  margin: 2px;
+  background-color: #CB0077;
+  border: none;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+}
+.main .wrapper_addCar button {
+  background-color: orangered;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 5px 12px;
+}
+.main h1 {
+  text-align: center;
+}
+
+th {
+  width: 10%;
+  text-align: start;
+}
+
+td {
+  width: 10%;
+  text-align: start;
+}
+
+.title_tr th {
+  background-color: darkslategray;
+  background-color: darkslategray;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.footer .footer_container {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=App.css.map */

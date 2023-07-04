@@ -1,0 +1,97 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    .contact_information {
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+        .tel {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.call_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:#CB0077;
+    border: none;
+    color: #fff;
+}
+.searc_site {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+form {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+        border: none;
+    }
+}
+
+.logo {
+    img {
+        width: 80px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contact_information {
+        padding: 10px 0px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+        .tel {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.call_me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color:#CB0077;
+    border: none;
+    color: #fff;
+}
+.searc_site {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+form {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+        border: none;
+    }
+}
+
+.logo {
+    img {
+        width: 80px;
+    }
+}
+

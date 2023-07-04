@@ -1,0 +1,101 @@
+.main {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main_container {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }.main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .main_container {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            text-align: center;
+        }
+    }
+    th {
+        width: 10%;
+      text-align: start;
+      
+    }
+    td {
+        width: 10%;
+        text-align: start;
+    }
+    .title_tr {
+        th {
+            background-color: darkslategray;
+            background-color: darkslategray;
+            color: white;
+        }
+    }
+    .wrapper_CarTable {
+     width: 100%;
+     margin-bottom: 20px;
+    }
+    .wrapper_addCar {
+     margin-bottom: 20px;
+    }
+    
+    .pagination {
+         margin-bottom: 20px;
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         align-items: center;
+         button {
+            margin: 2px;
+            background-color: #CB0077;
+            border: none;
+            color: #fff;
+            width: 25px;
+            height: 25px;
+            border-radius: 5px;
+         }
+    }
+    .wrapper_addCar {
+       button {
+        background-color: orangered;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 12px;
+       }
+    }
+    h1 {
+        text-align: center;
+    }
+}
+th {
+    width: 10%;
+  text-align: start;
+  
+}
+td {
+    width: 10%;
+    text-align: start;
+
+
+}
+.title_tr {
+    th {
+        background-color: darkslategray;
+        background-color: darkslategray;
+        color: white;
+    }
+}
